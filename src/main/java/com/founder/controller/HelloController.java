@@ -16,6 +16,7 @@ public class HelloController {
     public String hello() {
         System.out.println("你好啊中国");
          System.out.println("测试1");
+         System.out.println("github测试2");
         return "您好";
     }
 }
