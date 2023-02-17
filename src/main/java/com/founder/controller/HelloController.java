@@ -15,6 +15,7 @@ public class HelloController {
      @ResponseBody
     public String hello() {
         System.out.println("你好啊中国");
+         System.out.println("测试1");
         return "您好";
     }
 }
